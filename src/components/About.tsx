@@ -6,10 +6,10 @@ const About = () => {
       <div className="content-container">
         <a
           href="#"
-          className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          className="flex flex-col items-center border-2 rounded-lg shadow-md md:flex-row border-custom-background-accent dark:bg-gray-800 dark:hover:bg-gray-700"
         >
           <img
-            className=" rounded-tl rounded-bl md:h-full md:w-60 sm:h-100 sm:w-full"
+            className=" rounded md:h-full md:w-60 sm:h-100 sm:w-full"
             src={profileimg}
             alt=""
           ></img>
@@ -34,7 +34,7 @@ const About = () => {
       {/* Current tech stack */}
       <div className="content-container">
         <h1 className="text-2xl pb-6">Technical Skills</h1>
-        <div className="grid grid-cols-1 gap-8 justify-between md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-8 justify-between lg:grid-cols-4">
           <div className="tech-stack ">
             <svg viewBox="0 0 128 128" height="25" width="25">
               <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"></path>
