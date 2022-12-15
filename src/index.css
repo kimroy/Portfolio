@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+
+@layer components {
+    /* navbar */
+    .nav-items {
+        @apply hover:text-custom-foreground-primary hover:underline align-bottom
+    }
+    .content-container {
+        @apply max-w-6xl mx-auto p-6 
+    }
+    .tech-stack {
+        @apply flex border-2 border-custom-foreground-primary rounded-md p-4
+    }
+    .footer-social {
+        @apply flex rounded-md p-4
+    }
+}

@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>f</h1>
+    <div className="min-h-screen bg-custom-background-primary">
+      <Navbar />
+      <About />
+      <Footer />
     </div>
   );
 }
