@@ -8,7 +8,7 @@ function App() {
     <div className="min-h-screen bg-custom-background-primary">
       <Navbar />
       <About />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

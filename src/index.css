@@ -7,13 +7,13 @@
 @layer components {
     /* navbar */
     .nav-items {
-        @apply hover:text-custom-foreground-primary hover:underline align-bottom
+        @apply hover:text-custom-background-accent hover:underline align-bottom font-dmsans font-bold
     }
     .content-container {
         @apply max-w-6xl mx-auto p-6 
     }
     .tech-stack {
-        @apply flex border-2 border-custom-foreground-primary rounded-md p-4
+        @apply flex border-2 border-custom-background-accent rounded-md p-4 
     }
     .footer-social {
         @apply flex rounded-md p-4

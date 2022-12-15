@@ -1,7 +1,7 @@
 const About = () => {
   const profileimg = require("../assets/profile.jpg");
   return (
-    <div className="bg-custom-background-secondary text-white p-2">
+    <div className="bg-custom-background-primary text-white p-2">
       {/* My information */}
       <div className="content-container">
         <a
@@ -9,7 +9,7 @@ const About = () => {
           className="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
         >
           <img
-            className="object-cover rounded-tl rounded-bl"
+            className=" rounded-tl rounded-bl md:h-full md:w-60 sm:h-100 sm:w-full"
             src={profileimg}
             alt=""
           ></img>
@@ -34,8 +34,8 @@ const About = () => {
       {/* Current tech stack */}
       <div className="content-container">
         <h1 className="text-2xl pb-6">Technical Skills</h1>
-        <div className="grid grid-cols-5 gap-8 justify-between">
-          <div className="tech-stack">
+        <div className="grid grid-cols-1 gap-8 justify-between md:grid-cols-2 lg:grid-cols-4">
+          <div className="tech-stack ">
             <svg viewBox="0 0 128 128" height="25" width="25">
               <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"></path>
               <path
