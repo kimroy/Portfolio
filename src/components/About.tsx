@@ -26,6 +26,14 @@ const About = () => {
               tincidunt lacus. Suspendisse malesuada a sem eget elementum.
               Vestibulum tristique, odio eu pellentesque tincidunt, nibh nisi
               bibendum neque, sed mattis erat neque eu tellus. Pellentesque et
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed
+              nunc augue. Nulla facilisis turpis sed libero consectetur, eu
+              gravida urna placerat. Etiam in molestie elit, sed tristique
+              risus. Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Nullam in ultrices enim, a
+              tincidunt lacus. Suspendisse malesuada a sem eget elementum.
+              Vestibulum tristique, odio eu pellentesque tincidunt, nibh nisi
+              bibendum neque, sed mattis erat neque eu tellus. Pellentesque et
             </p>
           </div>
         </a>
